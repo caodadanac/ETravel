@@ -1,0 +1,86 @@
+.thumbnail{
+    display: flex;
+}
+.thumbnail-img{
+    width: 1920px;
+    height: 800px;
+    position: relative;
+   
+    
+}
+.blur-background{
+    width: 1886px;
+    height: 800px;
+    background-color: rgba(96,96,96,0.55);
+    position: absolute;
+  
+    
+}
+.center{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.centercontent{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr ;
+    justify-content: center;
+}
+.main-content-thumbnail{
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+}
+.second-content-thumbnail{
+    margin-top: 5px;
+    font-size: 28px;
+    color: white;
+    text-align:center;
+}
+.sotm{
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    background-color: rgb(56, 189, 144);
+    color: white;
+    border-radius:3px ;
+    border: none;
+    cursor: pointer;
+    
+}
+.mi{
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius:3px ;
+    border-color: white;
+    border-width:1.8px ;
+    background-color: rgba(96,96,96,0.55);
+    color: white;
+    cursor: pointer;
+    
+}
+.btnright{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(173, 173, 173, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.btnleft{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 189, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.header{
+    margin-top: 5px;
+    height: 100px;
+    display: flex;
+   
+    justify-content: space-between;
+   
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo-img{
+    height: 100px;
+    cursor: pointer;
+
+}
+.right-header{
+    display: flex;
+}
+.related-button{
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+.search{
+    border-radius: 360px;
+    border-style:solid ;
+    border-color:black ;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

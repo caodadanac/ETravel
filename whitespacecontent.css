@@ -1,0 +1,40 @@
+.white-space-content{
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 40px;
+}
+.front-wsc{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.down-wsc{
+    display: block;
+    padding-left: 90px;
+}
+.option{
+    display: inline-block;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+/* .option:hover{
+    width: 400px;
+} */
+
+.hotelimg{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: width 0.5s, height 0.5s;
+}
+/* .hotelimg:hover{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+} */

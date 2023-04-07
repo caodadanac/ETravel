@@ -1,0 +1,77 @@
+
+.firstlayout{
+    background-color: rgb(10, 84, 102);
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.firstlayout-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:700px;
+ 
+}
+.login{
+    height: 26px;
+    display: flex;
+    margin-left: 5px;
+    cursor: pointer;
+    border-color:rgb(10, 84, 102) ;
+    border-right-color: rgb(2, 47, 58);
+    border-style:solid ;
+    border-width:2px ;
+    align-items: center;
+    justify-content: center;
+}
+i{
+
+margin-right:5px ;
+cursor: pointer;
+
+}
+.text{
+    font-size: 14px;
+    padding-right: 5px;
+   
+}
+.register-div{
+    height: 26px;
+    display: flex;
+    margin-left: 5px;
+
+    border-color:rgb(10, 84, 102) ;
+    border-right-color: rgb(2, 47, 58);
+    border-style:solid ;
+    border-width:2px ;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+    
+}
+.register{
+    padding-left:3px;
+    font-size: 14px;
+    padding-right: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 126);
+    text-decoration: underline;
+}
+.firstlayout-right{
+    display: flex;
+}
+.firstlayoutbutton{
+    width: 30px;
+    border-color:rgb(10, 84, 102) ;
+    border-right-color: rgb(2, 47, 58);
+    border-style:solid ;
+    border-width:2px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
